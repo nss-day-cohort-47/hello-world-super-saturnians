@@ -29,9 +29,6 @@ footer {
 
 /*Classes
 --------------------------------------------------------------*/
-
-/* Note: all classes have a temporary dark grey dotted boarder to visualize elements. 
-   Remove before finalizing.*/
 .clickImageInfo {
 	text-align: center;
 }
@@ -121,7 +118,11 @@ footer {
 	padding: 0em 2em;
 	margin: 0em 2em;
 
-  .aus {
-	background-color: #ba8041;
+.icelandPage h1, .icelandPage .headline {
+	background-color: cornflowerblue;
+}
+ 
+.aus {
+  background-color: #ba8041;
 	color: #333;
 }
