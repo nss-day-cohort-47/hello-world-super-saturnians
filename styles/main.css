@@ -55,6 +55,8 @@ footer {
     padding: 0;
     overflow: hidden;
 	background-color: slategray;
+	font-family: 'Indie Flower', cursive;
+	font-size: 15px;
 }
 
 .nav {
