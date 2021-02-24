@@ -17,3 +17,83 @@ h1,h2,h3,h4,h5,h6 {
   font-family: "Patua One", serif;
   letter-spacing: 2px;
 }
+
+header h1 {
+	text-align: center;
+}
+
+/*Classes
+--------------------------------------------------------------*/
+
+/* Note: all classes have a temporary dark grey dotted boarder to visualize elements. 
+   Remove before finalizing.*/
+.logo {
+	border: dotted 1px darkgray;
+}
+
+.nav {
+	border: dotted 1px darkgray;
+}
+
+.active {
+	border: dotted 1px darkgray;
+}
+
+.country_image {
+	display: flex;
+	justify-content: center;
+
+	border: dotted 1px darkgray;
+}
+
+.country_image img {
+	width: 50%;
+	justify-self: center;
+
+	border: dotted 1px darkgray;
+}
+
+.headline {
+	font-size: 175%;
+	text-align: center;
+	
+	border: dotted 1px darkgray;
+}
+
+.parent {
+	display: flex;
+	justify-content: center;
+	
+	border: dotted 1px darkgray;
+}
+
+.parent h3 {
+	text-align: center;
+}
+
+.parent ul {
+	/* May not have a use for this? */
+
+	border: dotted 1px darkgray;
+}
+
+.cities {
+	padding: 0em 2em;
+	margin: 0em 2em;
+	
+	border: dotted 1px darkgray;
+}
+
+.landmarks {
+	padding: 0em 2em;
+	margin: 0em 2em;
+
+	border: dotted 1px darkgray;
+}
+
+.citizens {
+	padding: 0em 2em;
+	margin: 0em 2em;
+
+	border: dotted 1px darkgray;
+}
