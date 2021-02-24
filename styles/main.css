@@ -50,7 +50,6 @@ footer {
 }
 
 .logo {
-	border: dotted 1px darkgray;
 	list-style-type: none;
     margin: 0;
     padding: 0;
@@ -58,9 +57,17 @@ footer {
 	background-color: slategray;
 }
 
-.nav li {
-	float: left;
+.nav {
+	background-color: black;
+	display: flex;
+	list-style: none;
+	justify-content: center;
 }
+
+/* .Hunter's Old Code
+nav li {
+	float: left;
+} */
 
 .nav li a {
 	display: block;
@@ -72,10 +79,6 @@ footer {
 
 .nav li a:hover {
 	background-color: #111;
-}
-
-.nav {
-	border: dotted 1px darkgray;
 }
 
 .country_image {
@@ -123,12 +126,24 @@ footer {
 	background-color:seagreen;
 	color: white;
 }
-  
-.icelandPage h1, .icelandPage .headline {
+
+.aus {
+	background-color: #ba8041;
+	  color: #333;
+}  
+.icelandPage header {
+	padding: auto;
 	background-color: cornflowerblue;
 }
- 
-.aus {
-  background-color: #ba8041;
-	color: #333;
+
+.icelandPage h1, .icelandPage .mainBodyBackground {
+	background-color: cornflowerblue;
+}
+
+.icelandPage h1 {
+	text-align: center;
+}
+
+.icelandPage .logo {
+	background-color: cornflowerblue;
 }
