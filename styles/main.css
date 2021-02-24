@@ -131,6 +131,10 @@ nav li {
 	background-color: #ba8041;
 	  color: #333;
 }  
+.icelandPage header {
+	padding: auto;
+	background-color: cornflowerblue;
+}
 
 .icelandPage h1, .icelandPage .mainBodyBackground {
 	background-color: cornflowerblue;
@@ -141,5 +145,5 @@ nav li {
 }
 
 .icelandPage .logo {
-	background-color: white;
+	background-color: cornflowerblue;
 }
