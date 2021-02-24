@@ -22,16 +22,37 @@ header h1 {
 	text-align: center;
 }
 
+footer {
+	text-align: center;
+	padding-top: 15%;
+}
+
 /*Classes
 --------------------------------------------------------------*/
 
 /* Note: all classes have a temporary dark grey dotted boarder to visualize elements. 
    Remove before finalizing.*/
-.logo {
-	border: dotted 1px darkgray;
+.clickImageInfo {
+	text-align: center;
 }
 
-.nav {
+.indexLinks {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.indexLinks h3 {
+	text-align: center;
+}
+
+.indexLinks img {
+	object-fit: cover;
+	width: 300px;
+	height: 300px;
+}
+
+.logo {
 	border: dotted 1px darkgray;
 	list-style-type: none;
     margin: 0;
@@ -56,15 +77,13 @@ header h1 {
 	background-color: #111;
 }
 
-.active {
+.nav {
 	border: dotted 1px darkgray;
 }
 
 .country_image {
 	display: flex;
 	justify-content: center;
-
-	border: dotted 1px darkgray;
 }
 
 .country_image img {
@@ -72,56 +91,37 @@ header h1 {
 	width: 50%;
 	height: 400px;
 	justify-self: center;
-
-	border: dotted 1px darkgray;
 }
 
 .headline {
 	font-size: 175%;
 	text-align: center;
-	
-	border: dotted 1px darkgray;
 }
 
 .parent {
 	display: flex;
 	justify-content: center;
-	
-	border: dotted 1px darkgray;
 }
 
 .parent h3 {
 	text-align: center;
 }
 
-.parent ul {
-	/* May not have a use for this? */
-
-	border: dotted 1px darkgray;
-}
-
 .cities {
 	padding: 0em 2em;
 	margin: 0em 2em;
-	
-	border: dotted 1px darkgray;
 }
 
 .landmarks {
 	padding: 0em 2em;
 	margin: 0em 2em;
-
-	border: dotted 1px darkgray;
 }
 
 .citizens {
 	padding: 0em 2em;
 	margin: 0em 2em;
 
-	border: dotted 1px darkgray;
-}
-
-.aus {
+  .aus {
 	background-color: #ba8041;
 	color: #333;
 }
