@@ -117,7 +117,13 @@ footer {
 .citizens {
 	padding: 0em 2em;
 	margin: 0em 2em;
+}
 
+.italy {
+	background-color:seagreen;
+	color: white;
+}
+  
 .icelandPage h1, .icelandPage .headline {
 	background-color: cornflowerblue;
 }
