@@ -47,7 +47,9 @@ header h1 {
 }
 
 .country_image img {
+	object-fit: cover;
 	width: 50%;
+	height: 400px;
 	justify-self: center;
 
 	border: dotted 1px darkgray;
